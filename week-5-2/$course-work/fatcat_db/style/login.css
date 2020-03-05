@@ -1,0 +1,11 @@
+#registration_form {
+    width   : 250px;
+    margin  : auto;
+    border  : solid #dedede 1px;
+    padding : 5px;    
+}
+
+#registration_form input {
+    display: block;
+    margin-bottom: 5px;
+}
