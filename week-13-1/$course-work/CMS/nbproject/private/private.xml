@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/CMS/scripts/application/public/index.js</file>
+            <file>file:/C:/xampp/htdocs/CMS/controllers/AdminController.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/_routes.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/models/Post.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/scripts/application/groups.js</file>
+            <file>file:/C:/xampp/htdocs/CMS/routes/PostApi.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/index.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/routes/CommentApi.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/admin.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/models/Comment.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/groups.php</file>
+            <file>file:/C:/xampp/htdocs/CMS/style/style.css</file>
+        </group>
+    </open-files>
+</project-private>
