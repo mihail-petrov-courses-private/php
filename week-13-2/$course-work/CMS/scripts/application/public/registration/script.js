@@ -1,0 +1,3 @@
+var registrationController = function() {
+    
+};
