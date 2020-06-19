@@ -3,7 +3,7 @@
 Hi colleagues, within this project, you can find all the projects and exercises that have been developed and shown in the Back-end with PHP Course 2019 - 2020 course at the NetIT Learning Center.
 
 ## Organizing the material by class
-The courses are held every week (except for the breaks described in the program), with two classes on Mondays and Wednesdays from 7:00 pm to 9:30 pm. The materials are divided into weeks, each of the weeks beginning with an identifier **@week** - {**week-number**} - {**course-activity-number**} where :
+The courses are held every week (except for the breaks described in the program), with two classes on Friday and Sunday from 7:00 pm to 9:30 pm. The materials are divided into weeks, each of the weeks beginning with an identifier **@week** - {**week-number**} - {**course-activity-number**} where :
 - {**week-number**} is the week numbers described in the syllabus
 - {**course-activity-number**} is the sequence of Activity *1* for Tuesday and *2* for Thursday
 
