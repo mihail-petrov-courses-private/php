@@ -1,0 +1,33 @@
+<div id="message-baner" class="message success">
+    Success record !!!
+</div>
+
+<div class="admin-editor">
+    <form id="admin-group-editor" method="POST" name="admin-group-editor">
+        <input id           = "group_title" 
+               class        = "form-input" 
+               type         = "text" 
+               placeholder  = "Group title" 
+               name         = "group_title">
+
+        <input id           = "admin-group-editor-submit"
+               class        = "button" 
+               type         = "submit" 
+               name         = "group_submit"
+               style        = "display: inline-block">                
+
+        <input id           = "admin-group-editor-edit-cancel"
+               class        = "button" 
+               type         = "button" 
+               value        = "Cancel edit"
+               name         = "group_cancel"
+               style        = "display: inline-block">                                
+
+        <input type         = "hidden" 
+               name         = "post_tokken" 
+               value        = "1">
+    </form>
+</div>
+
+<div id     = "group-container" 
+     class  = "admin-editor"></div>

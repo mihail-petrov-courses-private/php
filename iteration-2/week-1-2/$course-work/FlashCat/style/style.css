@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: #dedede;
+    padding: 0 12px;
+    border-bottom: solid #000 2px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu > li {
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.web-logo {
+    display: inline-block;
+}
+
+#wrapper {
+    margin-top: 15px;
+    padding: 0 12px;
+}

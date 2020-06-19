@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CMS</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/public.css">
+        <link rel="stylesheet" href="style/admin.css">
+    </head>
+    <body>
+        
+        <div id="application-header" class="web-header">
+            <h1 id="web-logo-placeholder" class="logo">CMS</h1>
+            
+            <div id="public-placeholder" class="menu-placeholder">
+                <ul>
+                    <li><a href="http://localhost/CMS/index.html?index">Home</a></li>
+                    <li><a href="http://localhost/CMS/index.html?registration">Sign Up</a></li>
+                    <li><a href="http://localhost/CMS/index.html?login">Sign In</a></li>
+                </ul>
+            </div>                        
+            
+            
+            <div id="admin-placeholder" class="menu-placeholder">
+                <ul>
+                    <li><a href="admin.php">Add new</a></li>
+                    <li><a href="list-post.php">List posts</a></li>
+                    <!-- <li><a href="logout.php">Log out</a></li> -->
+                    <li><a href="admin.php?action=logout">Log out</a></li>
+                </ul>
+            </div>            
+        </div>
+        
+        
+        <div id="page-template"></div>
+        
+        <!-- vendor and utility scripts -->
+        <script src="scripts/client/netitquery.js"></script>
+        <script src="scripts/vendor/jquery.js"></script>
+        
+        <!-- all page scripts -->
+        <script src="scripts/application/index/script.js"></script>
+        <script src="scripts/application/admin/script.js"></script>
+        <script src="scripts/application/login/script.js"></script>
+        <script src="scripts/application/registration/script.js"></script>        
+        
+        <!-- router -->
+        <script src="scripts/router/router.js"></script>        
+    </body>
+</html>

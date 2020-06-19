@@ -1,0 +1,12 @@
+<report>
+    <market_branch>
+        <id>15457</id>
+        <total_sales_for_day>10000000</total_sales_for_day>
+        <total_items>512</total_items>
+    </market_branch>
+    <market_branch>
+        <id>18457</id>
+        <total_sales_for_day>15444455</total_sales_for_day>
+        <total_items>10</total_items>
+    </market_branch>    
+</report>

@@ -1,0 +1,16 @@
+{
+    "report" : {
+        "market_branch" : [
+            {
+                "id"                  : 15457,
+                "total_sales_for_day" : 10000000,
+                "total_items"         : 512
+            },
+            {
+                "id"                  : 18457,
+                "total_sales_for_day" : 15444455,
+                "total_items"         : 10
+            }
+        ]
+    }
+}

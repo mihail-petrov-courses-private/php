@@ -1,0 +1,52 @@
+* {
+    margin  : 0;
+    padding : 0;
+}
+
+input, textarea {
+    display: block;
+}
+
+.web-header {
+    height      : 20px;
+    padding     : 5px;
+}
+
+.button {
+    background      : #dededede;
+    border          : none;
+    text-transform  : lowercase;
+    padding         : 5px;
+    cursor          : pointer;
+}
+
+.form-input {
+    width   : 100%;
+    margin  : 5px 0;
+    padding : 5px;
+}
+
+.form-textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 5px;
+}
+
+.h-160 {
+    height: 160px;
+}
+
+.wrapper {
+    margin      : auto;
+    margin-top  : 100px;
+    width       : 500px;
+}
+
+.message {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.error {
+    background: #ff0000;
+}

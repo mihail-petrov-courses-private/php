@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding : 0;
+}
+
+#header {
+    background: #dedede;
+    border-bottom: solid #ff0000 1px
+}
+
+.element {
+    border  : solid #dedede 1px;
+    margin  : 5px;
+}
+
+.complex-element {
+    border  : solid #ff0000 1px;
+    margin  : 5px;
+}
+
+.cat-wrapper {
+    background: #dedede;
+    border: solid 1px #ff0000;
+}
+
+.cat-for-buy {
+    margin: 4px;
+}
+
+.cat-banner {
+    width: 126px;
+
+}
