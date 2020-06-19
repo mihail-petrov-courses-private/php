@@ -1,3 +1,0 @@
-var groupCreateController = function() {
-
-};

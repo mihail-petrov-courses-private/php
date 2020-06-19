@@ -1,4 +1,0 @@
-{"id" : "1", "name": "Maza", "age": 16, "img": "cats/img1.jpg", "address": "Vidin 24", "_action": "buy" }
-{"id" : "2", "name": "Prusho", "age": 2, "img": "cats/img2.jpg", "address": "Plovdiv 24", "_action": "buy"}
-{"id" : "3", "name": "Vafla", "age" : 10, "img" : "cats/img3.jpg", "address"   : "Haskovo 24", "_action"   : "sell"}
-{"id" : "4", "name": "Churchil", "age": 5, "img": "cats/img7.jpg", "address": "Pleven 16", "_action": "sell" }  
