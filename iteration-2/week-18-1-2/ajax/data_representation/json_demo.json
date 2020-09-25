@@ -1,0 +1,22 @@
+{
+    "topic"         : "Политическа отговорност",
+    "category"      : "Политика",
+    "likeCount"     : 150,
+    "author"        : {
+        "fname" : "Mihail",
+        "lname" : "Petrov",
+        "age"   : 28
+    },
+
+    "comments" : [
+        {
+            "content"   : "Това не струва брат",
+            "author"    : "попа с лаптопа"
+        },
+
+        {
+            "content"   : "Най-лудия",
+            "author"    : "Комара с танка"
+        }     
+    ]
+}
