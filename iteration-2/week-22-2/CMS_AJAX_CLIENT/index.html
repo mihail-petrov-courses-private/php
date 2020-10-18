@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+
+        <div id="header" class="wrapper">
+
+            <h1 class = "logo">@CMS</h1>
+
+            <div id = "cms-manager">
+                <ul id="cms--menu">
+                    <li data-controller="blog">Blog</li>
+                    <li data-controller="about">About us</li>
+                    <li data-controller="contact">Contact</li>
+                    <li id="menu-signup" data-controller="signup">Sing up</li>
+                    <li id="menu-signin" data-controller="signin">Sing in</li>
+                    <li id="menu-signout">Sing out</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id     = "content"  
+             class  = "wrapper"></div>
+        <div id="footer"></div>
+        
+        <script src="lib/jquery.js"></script>
+        <script src="lib/ajax.js"></script>
+        <script src="lib/template.js"></script>
+        <script src="src/api/http.api.js"></script>
+        <script src="src/api/api.js"></script>
+        <script src="src/managers/Router.js"></script>
+        <script src="src/managers/Auth.js"></script>
+        <script src="src/controllers/about/AboutController.js"></script>
+        <script src="src/controllers/blog/BlogController.js"></script>
+        <script src="src/controllers/contact/ContactController.js"></script>
+        <script src="src/controllers/signin/SigninController.js"></script>
+        <script src="src/controllers/singup/SignupController.js"></script>
+        <script>
+            
+            $("#menu-signout").hide();
+            
+            if(Auth.isAuthenticated()) {
+                $("#menu-signup").hide();
+                $("#menu-signin").hide();
+                $("#menu-signout").show();
+            }
+            
+            $("#menu-signout").on('click', () => {
+               Auth.signout(); 
+               $("#menu-signup").show();
+               $("#menu-signin").show();               
+            });
+            
+        </script>
+    </body>
+</html>
