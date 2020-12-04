@@ -1,0 +1,36 @@
+* {
+    margin  : 0;
+    padding : 0;
+}
+
+#header {
+    padding         : 7px;
+    background      : #dedede;
+    border-bottom   : solid #000;
+}
+
+#slogan {
+    width: 300px;
+    display: inline-block;
+}
+
+#top--navigation {
+    float: right;
+}
+
+#top--navigation ul li {
+    display: inline-block;
+}
+
+
+#form--welcome-user {
+    width: 300px;
+    border: solid #dedede 2px;
+}
+
+
+.list--item {
+    display: inline-block;
+    margin: 0 2px;
+    text-transform: uppercase;
+}
