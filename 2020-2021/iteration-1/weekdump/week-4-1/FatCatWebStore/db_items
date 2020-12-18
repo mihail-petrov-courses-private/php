@@ -1,0 +1,1 @@
+a:2:{i:0;a:6:{s:4:"name";s:14:"Маринко";s:3:"age";s:1:"5";s:9:"fat_level";N;s:9:"fur_color";s:14:"червено";s:20:"is_available_for_buy";b:1;s:21:"is_available_for_sell";b:0;}i:1;a:6:{s:4:"name";s:22:"Караконджол";s:3:"age";s:1:"7";s:9:"fat_level";s:1:"6";s:9:"fur_color";s:8:"рижа";s:20:"is_available_for_buy";b:1;s:21:"is_available_for_sell";b:0;}}
