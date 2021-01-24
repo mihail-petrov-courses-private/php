@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/css/vendor/grid.css</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/css/components/form.component.css</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/src/controllers/front/SignUpController.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/view/front/profile.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/src/database/Database.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/view/layout/footer.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/css/components/header.component.css</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/view/front/index.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/src/controllers/admin/ProductController.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/css/style.css</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/view/front/signin.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/css/components/placeholder.component.css</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/view/front/teller.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/src/validation/Validator.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/css/components/menu.component.css</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/src/controllers/front/SignInController.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/view/layout/header.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/src/controllers/admin/CategoryController.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMS/view/front/signup.php</file>
+        </group>
+    </open-files>
+</project-private>
