@@ -1,0 +1,7 @@
+#component--menu {
+    
+}
+
+#component--menu ul li {
+    display: inline-block
+}
