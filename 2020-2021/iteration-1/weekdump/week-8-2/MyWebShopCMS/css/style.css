@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w-px-210   { width: 210px;         }
+.w-px-500   { width: 500px;         }
+.w-p-100    { width: 100%           }
+
+.a-left     { text-align: left;     }
+.a-center   { text-align: center;   }
+.a-right    { text-align: right;    }
+
+.center     { margin: auto          }
+
+
+.m-top-25      { margin-top: 25px }
+
+
+.query {
+    background: #d91c5c;
+    font-weight: bold;
+    padding: 5px;    
+    color: #fff;
+}
