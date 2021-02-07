@@ -1,0 +1,19 @@
+#component--menu {
+    
+}
+
+
+#component--menu ul {
+    text-align: right;
+}
+
+#component--menu ul li {
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+#component--menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;    
+}
