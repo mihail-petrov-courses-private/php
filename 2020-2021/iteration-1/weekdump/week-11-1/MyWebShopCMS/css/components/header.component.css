@@ -1,0 +1,9 @@
+#component--header {
+    background      : #20639b;
+    padding         : 8px;
+    border-bottom   : solid 1px #dedede;
+}
+
+#component--header-logo {
+    color: #fff;
+}
