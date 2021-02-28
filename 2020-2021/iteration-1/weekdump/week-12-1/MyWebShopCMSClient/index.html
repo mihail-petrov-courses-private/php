@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/vendor/grid.css"                       />
+        <link rel="stylesheet" href="style/style.css"                             />
+        <link rel="stylesheet" href="style/components/header.component.css"       />
+        <link rel="stylesheet" href="style/components/placeholder.component.css"  />
+        <link rel="stylesheet" href="style/components/form.component.css"         />
+        <link rel="stylesheet" href="style/components/menu.component.css"         />
+        <link rel="stylesheet" href="style/components/product.component.css"      />  
+    </head>
+    <body>
+        
+        <div id="component--header">
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div id="component--header-logo">
+                            CMS WEB SHOP
+                        </div>
+                    </div>
+
+                    <div class="col-xs-8">
+                        <div id="component--menu">
+
+                                <ul>
+                                    <li><a href="#home">Начало</a></li>
+                                    <li>|</li>
+                                    <li><a href="#signup">Регистрация</a></li>
+                                    <li>|</li>
+                                    <li><a href="#signin">Вход</a></li>
+                                    <li>|</li>
+                                    <li><a href="#teller">Продукти</a></li>
+                                </ul>
+                            
+                        </div>         
+                    </div>
+                </div>
+            </div>          
+                
+        <div id="template-placeholder" class="product--collection">
+        </div>        
+        
+        <!-- System application calls -->
+        <script src='src/vendor/ajax.js'></script>
+        <script src='src/vendor/api.js'></script>
+        
+        <!-- Controllers -->
+        <script src='src/client/home.controller.js'></script>
+        <script src='src/client/teller.controller.js'></script>
+        <script src='src/client/pagenotfound.controller.js'></script>
+        
+        <!-- Application bootstrap -->
+        <script src='src/vendor/bootstrap.js'></script>
+    </body>
+</html>
