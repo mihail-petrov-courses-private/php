@@ -1,0 +1,122 @@
+<?php 
+session_start();
+
+function basecontext($path) {
+    
+    $projectName = explode('/', $_SERVER['REQUEST_URI'])[1];
+    return $_SERVER['CONTEXT_DOCUMENT_ROOT'] . '/' . $projectName . '/' . $path;
+}
+
+function url($path) {
+    
+    $serverName     = $_SERVER['SERVER_NAME'];
+    $projectName    = explode('/', $_SERVER['REQUEST_URI'])[1];
+    
+    return "/$projectName/$path";
+}
+
+function load_view($context, $viewId, $externalVariables) {
+    
+    extract($externalVariables);
+    $viewPath = "view/$context/$viewId.php";
+    include basecontext('view/layout/header.php');
+    include basecontext($viewPath);
+    include basecontext('view/layout/footer.php');
+}
+
+
+function load_controller($controller) {
+    include basecontext("src/controllers/front/$controller.php");
+}
+
+function get_front_controller_namespace($controller) {
+    return 'src\client\controllers\front\\';
+}
+
+function get_front_controller($controller) {
+    return basecontext("src/client/controllers/front/$controller.php");
+}
+
+function get_admin_controller($controller) {
+    return basecontext("src/client/controllers/admin/$controller.php");
+}
+
+function get_system_controller($controller) {
+    return basecontext("src/client/controllers/system/$controller.php");
+}
+
+function css($path) {
+    echo url("css/$path");
+}
+
+function navigate($path) {
+    echo url("index.php/$path");
+}
+
+function buildQueryString($queryParameterCollection = []) {
+    
+    if(count($queryParameterCollection) == 0) {
+        return "";
+    }
+    
+    $queryString = array();
+    foreach ($queryParameterCollection as $key => $value) {
+        array_push($queryString, "$key=$value");
+    }
+
+    return "?" . implode('&', $queryString);
+}
+
+function a($href, $title, $queryParameterCollection = []) {
+    
+    $queryString = buildQueryString($queryParameterCollection);
+    $url = url("index.php/$href$queryString");
+    echo "<a href='". $url ."'>$title</a>";        
+}
+
+function redirect($path) {
+    
+    $page = url("index.php/$path");
+    header("Location: $page");
+}
+
+
+function filter($queryCollection) {
+    
+    $requestCollection = array();
+    foreach ($queryCollection as $key => $value) {
+        
+        if(!is_null($value)) {
+            $requestCollection[$key] = $value;
+        }
+    }
+    
+    return $requestCollection;
+}
+
+function filter_request($requestParam, $stripDatabaseString = false) {
+    
+    if($stripDatabaseString) {
+     return array_key_exists($requestParam, $_GET) 
+             ? $_GET[$requestParam]
+             : null;   
+    }
+
+     return array_key_exists($requestParam, $_GET) 
+             ? src\vendor\database\Database::str($_GET[$requestParam]) 
+             : null;
+}
+
+function limit_calculator($limitCollection) {
+    
+    $limit  = is_null($limitCollection['limit'])    ? 4 : (int)($limitCollection['limit']);
+    $page   = is_null($limitCollection['page'])     ? 1 : (int)($limitCollection['page']); 
+    $offset = ($page - 1) * $limit;
+    
+    return array(
+        'offset'    => $offset,
+        'limit'     => $limit
+    );
+}
+
+
