@@ -1,0 +1,12 @@
+.product--element {
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+    border: solid #dedede 1px;
+}
+
+.product--element:hover {
+    background: #20639b;
+    cursor: pointer;
+    color : #fff;
+}
