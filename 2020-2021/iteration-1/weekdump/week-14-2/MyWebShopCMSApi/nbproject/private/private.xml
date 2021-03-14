@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/vendor/database/Database.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/client/controllers/front/SignInController.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/vendor/message/Message.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/vendor/loader/Loader.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/vendor/validation/Validator.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/index.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/client/controllers/front/SignUpController.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/vendor/http/Response.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/client/models/UserModel.php</file>
+            <file>file:/C:/xampp/htdocs/MyWebShopCMSApi/src/client/controllers/front/TellerController.php</file>
+        </group>
+    </open-files>
+</project-private>
